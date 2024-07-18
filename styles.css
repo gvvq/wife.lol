@@ -1,0 +1,25 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+p {
+    font-size: 2em;
+}
+
+#wife {
+    color: cyan;
+    cursor: pointer;
+    transition: color 0.3s, transform 0.3s;
+}
+
+#wife:hover {
+    transform: scale(1.1);
+}
+
